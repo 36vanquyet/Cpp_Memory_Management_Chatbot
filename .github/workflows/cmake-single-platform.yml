@@ -22,7 +22,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Setup lib
+    - name: Install wxWidgets
       run: sudo apt-get install libwxgtk3.0-gtk3-dev libwxgtk3.0-gtk3-0v5
 
     - name: Configure CMake
